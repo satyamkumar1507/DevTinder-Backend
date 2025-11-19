@@ -1,7 +1,7 @@
 const socket = require("socket.io");
 const crypto = require("crypto");
-const { log } = require("console");
-const Chat = require("../models/chat");
+
+const {Chat} = require("../models/chat");
 
 
 const getSecretRoomId = (userId, targetUserId) => {
